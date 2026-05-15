@@ -1,7 +1,4 @@
 
-
-
-
 -- Generate reports all key metrics 
 
 	SELECT 
