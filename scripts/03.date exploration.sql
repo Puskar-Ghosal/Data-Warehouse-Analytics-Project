@@ -8,7 +8,6 @@ FROM gold.fact_sales
 GROUP BY product_key
 ORDER BY product_key
 
--- find the dates of first and last order 
 -- How many years of sales are available 
 SELECT 
 	MIN(order_date) AS first_order ,
